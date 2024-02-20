@@ -4,21 +4,28 @@ from openai import OpenAI
 import os
 from dotenv import load_dotenv
 import requests 
-import sys
+
 
 
 def save_file(filename, content):
-    file = open('articles/' + filename, "w")
+    '''
+    Saves a file in the 'articles' directory
+    Args:
+        filename (str): the name of the new file
+        content (str): the content of the file. 
+    '''
+
+    file = open('articles/' + filename, "w")    # open the new file in writing mode
     file.write(content)
     file.close()
 
 
 def get_author_id(token):
-    '''uses the medium api to get the user's author id
+    '''
+    Uses the medium api to get the user's author id
     
     Args:
         token (str): Medium's integration token
-    
     
     '''
 
@@ -29,6 +36,7 @@ def get_author_id(token):
         "Accept": "application/json",
         "Accept-Charset": "utf-8",
     }
+
     response = requests.get("https://api.medium.com/v1/me", headers=headers, params={"Authorization": "Bearer {}".format(token)})
 
     if response.status_code == 200:

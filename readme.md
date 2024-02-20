@@ -12,25 +12,26 @@ for notes on deploying the project on a live system.
 ### Prerequisites
 
 Requirements for the software and other tools to build, test and push 
-- [Google News API](https://www.news.google.com):
-- [OpenAI API](https://www.openai.com)
-- [Medium API](https://www.medium.com)
+- [Google News API](https://www.news.google.com): set up a Google News API and generate an API token.
+- [OpenAI API](https://www.openai.com): set up an OpenAI Plus account. 
+- [Medium API](https://www.medium.com): sign up and create an account in the Medium website. 
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development
 environment running
 
-Say what the step will be
+Install the Google News library
 
-    Give the example
+    pip install newsapi-python
 
-And repeat
+Install the OpenAI library
 
-    until finished
+    pip install openai
 
-End with an example of getting some data out of the system or using it
-for a little demo
+Install the https request library
+
+    pip install requests
 
 ## Running the tests
 

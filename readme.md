@@ -12,7 +12,7 @@ for notes on deploying the project on a live system.
 ### Prerequisites
 
 Requirements for the software and other tools to build, test and push 
-- [Google News API](https://www.news.google.es):
+- [Google News API](https://www.news.google.com):
 - [OpenAI API](https://www.openai.com)
 - [Medium API](https://www.medium.com)
 

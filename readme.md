@@ -33,6 +33,20 @@ Install the https request library
 
     pip install requests
 
+* Set up api keys in Ubuntu/MacOS:
+
+1. Google News API: 
+
+    export NEWS_API={key_value}
+
+
+2. OpenAI API:
+
+    export OPENAI_API_KEY={key_value}
+
+3. Medium API:
+
+    export MEDIUM_API={key_value}
 
 
 ## Running the tests

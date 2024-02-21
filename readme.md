@@ -37,16 +37,16 @@ Install the https request library
 
 1. Google News API: 
 
-    export NEWS_API={key_value}
+      export NEWS_API={key_value}
 
 
 2. OpenAI API:
 
-    export OPENAI_API_KEY={key_value}
+      export OPENAI_API_KEY={key_value}
 
 3. Medium API:
 
-    export MEDIUM_API={key_value}
+      export MEDIUM_API={key_value}
 
 
 ## Running the tests

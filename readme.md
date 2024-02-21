@@ -37,21 +37,28 @@ Install the https request library
 
 1. Google News API: 
 ```
-    export NEWS_API={key_value}
+export NEWS_API={key_value}
 ```
 
 2. OpenAI API:
 ```
-      export OPENAI_API_KEY={key_value}
+export OPENAI_API_KEY={key_value}
 ```
 3. Medium API:
 ```
-      export MEDIUM_API={key_value}
+export MEDIUM_API={key_value}
 ```
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+By running the following command:
+```
+    python3 script_generator.py
+
+```
+
+An article will be generated and posted to the given Medium account. 
+
 
 ### Sample Tests
 
@@ -59,15 +66,6 @@ Explain what these tests test and why
 
     Give an example
 
-### Style test
-
-Checks if the best practices and the right coding style has been used.
-
-    Give an example
-
-## Deployment
-
-Add additional notes to deploy this on a live system
 
 ## Built With
 
@@ -92,15 +90,6 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
   - **Billie Thompson** - *Provided README Template* -
     [PurpleBooth](https://github.com/PurpleBooth)
 
-See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
-
-## License
-
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
-details
 
 ## Acknowledgments
 

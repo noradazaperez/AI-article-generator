@@ -35,17 +35,17 @@ Install the https request library
 
 * Set up api keys in Ubuntu/MacOS:
 
-1. ** Google News API: **
+1. **Google News API:**
 ```
 export NEWS_API={key_value}
 ```
 
-2. ** OpenAI API: **
+2. **OpenAI API:**
 ```
 export OPENAI_API_KEY={key_value}
 ```
 
-3. ** Medium API: **
+3. **Medium API:**
 ```
 export MEDIUM_API={key_value}
 ```
@@ -53,19 +53,12 @@ export MEDIUM_API={key_value}
 ## Running the tests
 
 By running the following command:
-```
+
     python3 script_generator.py
 
-```
+
 
 An article will be generated and posted to the given Medium account. 
-
-
-### Sample Tests
-
-Explain what these tests test and why
-
-    Give an example
 
 
 ## Built With
@@ -80,20 +73,11 @@ Explain what these tests test and why
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
 of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
 ## Authors
 
-  - **Billie Thompson** - *Provided README Template* -
-    [PurpleBooth](https://github.com/PurpleBooth)
+  - **Nora Daza Pérez** - *developed and designed the code.*
 
 
 ## Acknowledgments
 
-  - Hat tip to anyone whose code is used
-  - Inspiration
-  - etc

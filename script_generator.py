@@ -218,7 +218,7 @@ def main() -> None:
     # POST TO MEDIUM
     medium_id = get_author_id(medium_token)     # retrieve author id
     
-    push_to_medium('articles/' + filename, medium_id, medium_token, 'Top Skincare Trends', ['beauty'])
+    push_to_medium('articles/' + filename, medium_id, medium_token, 'Top Skincare Trends', ['beauty', 'skincare'])
 
 
 if __name__ == "__main__":

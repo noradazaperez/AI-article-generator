@@ -1,7 +1,8 @@
 # Publishing to Medium using the latest news. 
 
 In this project, we have developed a Python script that retrieves the news articles about the latest skincare trends and 
-generates an article, using OpenAI's ChatGPT AI model. The program will also post said article to a given Medium profile. 
+generates an article, using OpenAI's ChatGPT AI model. The program will also post said article to a given Medium profile as a 
+draft. 
 
 ## Getting Started
 
@@ -59,25 +60,13 @@ By running the following command:
 
 
 An article will be generated and posted to the given Medium account. 
-
-
-## Built With
-
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
-
+The script gives a link to the generated image as an output, as well as an 
+error code for uploading the article. 
 
 ## Authors
 
   - **Nora Daza Pérez** - *developed and designed the code.*
 
 
-## Acknowledgments
+
 
